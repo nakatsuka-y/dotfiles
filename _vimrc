@@ -39,15 +39,17 @@ endif
 """"""""""""""""""""""""""""""
 " NeoBundle Scripts
 """"""""""""""""""""""""""""""
+" If you cloned vimfile from Github to another machine, be sure to remove all
+" the contents of the bundle file and clone NeoBundle from NeoBundle site.
 if &compatible
   set nocompatible               " Be iMproved
 endif
 
 " Required:
-set runtimepath+=~/.vim/vimfiles/bundle/neobundle.vim/
+set runtimepath+=~/.vim/bundle/neobundle.vim/
 
 " Required:
-call neobundle#begin(expand('~/.vim/vimfiles/bundle'))
+call neobundle#begin(expand('~/.vim/bundle'))
 
 " Let NeoBundle manage NeoBundle
 " Required:
@@ -62,6 +64,7 @@ NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'tomtom/tcomment_vim' "select using SHIFT+V and comment out with Ctrl+-
 NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'bronson/vim-trailing-whitespace' "use ':FixWhitespace' to automatically delete unwanted spaces
+NeoBundle 'fatih/vim-go.git' "Go development plugin
 
 " You can specify revision/branch/tag.
 NeoBundle 'Shougo/vimshell', { 'rev' : '3787e5' }
