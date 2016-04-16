@@ -3,8 +3,11 @@ neomru.vim
 neosnippet-snippets
 neosnippet.vim
 nerdtree
+powerline
+syntastic
 tcomment_vim
 unite.vim
+vim-go
 vim-indent-guides
 vim-trailing-whitespace
 vimshell

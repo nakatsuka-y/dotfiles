@@ -62,6 +62,9 @@ NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'tomtom/tcomment_vim' "select using SHIFT+V and comment out with Ctrl+-
 NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'bronson/vim-trailing-whitespace' "use ':FixWhitespace' to automatically delete unwanted spaces
+NeoBundle 'powerline/powerline',{'rtp': 'powerline/bindings/vim/'}
+NeoBundle 'scrooloose/syntastic'
+NeoBundle 'fatih/vim-go.git' "Go development plugin
 
 " You can specify revision/branch/tag.
 NeoBundle 'Shougo/vimshell', { 'rev' : '3787e5' }
@@ -78,25 +81,25 @@ NeoBundleCheck
 """"""""""""""""""""""""""""""
 
 """"""""""""""""""""""""""""""
-" Settings for Unit.vim
+" Settings for Unite.vim
 """"""""""""""""""""""""""""""
 " start with input mode
 let g:unite_enable_start_insert=1
-" show all buffers 
+" show all buffers
 noremap <C-P> :Unite buffer<CR>
-" show all files 
+" show all files
 noremap <C-N> :Unite -buffer-name=file file<CR>
-" show all recent files 
+" show all recent files
 noremap <C-Z> :Unite file_mru<CR>
-" set 'sources' to the now opened directory 
+" set 'sources' to the now opened directory
 noremap :uff :<C-u>UniteWithBufferDir file -buffer-name=file<CR>
-" open window horizonally split 
+" open window horizonally split
 au FileType unite nnoremap <silent> <buffer> <expr> <C-J> unite#do_action('split')
 au FileType unite inoremap <silent> <buffer> <expr> <C-J> unite#do_action('split')
-" open window vertically split 
+" open window vertically split
 au FileType unite nnoremap <silent> <buffer> <expr> <C-K> unite#do_action('vsplit')
 au FileType unite inoremap <silent> <buffer> <expr> <C-K> unite#do_action('vsplit')
-" escape by pressing pressing ESC key two times 
+" escape by pressing pressing ESC key two times
 au FileType unite nnoremap <silent> <buffer> <ESC><ESC> :q<CR>
 au FileType unite inoremap <silent> <buffer> <ESC><ESC> <ESC>:q<CR>
 """"""""""""""""""""""""""""""
@@ -104,6 +107,7 @@ au FileType unite inoremap <silent> <buffer> <ESC><ESC> <ESC>:q<CR>
 """"""""""""""""""""""""""""""
 " Settings for vim
 """"""""""""""""""""""""""""""
+set shell=/bin/bash
 set showcmd		" Show (partial) command in status line.
 set showmatch		" Show matching brackets.
 "set ignorecase		" Do case insensitive matching
@@ -122,6 +126,17 @@ set whichwrap=b,s,h,l,<,>,[,] " Stop cursor from stopping at line beginnings and
 
 "hightlight LineNr ctermfg=darkyellow " Set line number color
 
+let mapleader = "," " Set leader to comma
+map <Leader>f <C-f>
+map <Leader>b <C-b>
+map <Leader>w :w<Return>
+map <Leader>q :q<Return>
+"imap <Space>n <C-n>
+imap <C-h> <Left>
+imap <C-j> <Down>
+imap <C-k> <Up>
+imap <C-l> <Right>
+
 " Source a global configuration file if available
 if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
@@ -129,7 +144,7 @@ endif
 
 " Set colorscheme
 "colorscheme solarized
-colorscheme desert 
+colorscheme desert
 """"""""""""""""""""""""""""""
 
 """"""""""""""""""""""""""""""
@@ -154,6 +169,20 @@ let OmniCpp_ShowAccess = 1
 let OmniCpp_SelectFirstItem = 1
 set completeopt=menuone,menu,longest
 """"""""""""""""""""""""""""""
+
+""""""""""""""""""""""""""""""
+" Settings for Syntastic
+""""""""""""""""""""""""""""""
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+""""""""""""""""""""""""""""""
+
 
 """"""""""""""""""""""""""""""
 " Settings for NeoComplete
