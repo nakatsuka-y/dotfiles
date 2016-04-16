@@ -64,11 +64,8 @@ NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'tomtom/tcomment_vim' "select using SHIFT+V and comment out with Ctrl+-
 NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'bronson/vim-trailing-whitespace' "use ':FixWhitespace' to automatically delete unwanted spaces
-<<<<<<< HEAD
 NeoBundle 'powerline/powerline',{'rtp': 'powerline/bindings/vim/'}
 NeoBundle 'scrooloose/syntastic'
-=======
->>>>>>> new-master
 NeoBundle 'fatih/vim-go.git' "Go development plugin
 
 " You can specify revision/branch/tag.
