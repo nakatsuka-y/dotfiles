@@ -21,13 +21,10 @@
 'NERDTreeStatusline'	NERD_tree.txt	/*'NERDTreeStatusline'*
 'NERDTreeWinPos'	NERD_tree.txt	/*'NERDTreeWinPos'*
 'NERDTreeWinSize'	NERD_tree.txt	/*'NERDTreeWinSize'*
-<<<<<<< HEAD
 'b:syntastic_<checker>_exec'	syntastic.txt	/*'b:syntastic_<checker>_exec'*
 'b:syntastic_checkers'	syntastic.txt	/*'b:syntastic_checkers'*
 'b:syntastic_mode'	syntastic.txt	/*'b:syntastic_mode'*
 'b:syntastic_skip_checks'	syntastic.txt	/*'b:syntastic_skip_checks'*
-=======
->>>>>>> new-master
 'g:go_asmfmt_autosave'	vim-go.txt	/*'g:go_asmfmt_autosave'*
 'g:go_auto_type_info'	vim-go.txt	/*'g:go_auto_type_info'*
 'g:go_autodetect_gopath'	vim-go.txt	/*'g:go_autodetect_gopath'*
@@ -70,10 +67,7 @@
 'g:go_snippet_engine'	vim-go.txt	/*'g:go_snippet_engine'*
 'g:go_test_timeout'	vim-go.txt	/*'g:go_test_timeout'*
 'g:go_textobj_enabled'	vim-go.txt	/*'g:go_textobj_enabled'*
-<<<<<<< HEAD
 'g:syntastic_<filetype>_checkers'	syntastic.txt	/*'g:syntastic_<filetype>_checkers'*
-=======
->>>>>>> new-master
 'indent_guides_auto_colors'	indent_guides.txt	/*'indent_guides_auto_colors'*
 'indent_guides_color_change_percent'	indent_guides.txt	/*'indent_guides_color_change_percent'*
 'indent_guides_default_mapping'	indent_guides.txt	/*'indent_guides_default_mapping'*
@@ -85,7 +79,6 @@
 'indent_guides_space_guides'	indent_guides.txt	/*'indent_guides_space_guides'*
 'indent_guides_start_level'	indent_guides.txt	/*'indent_guides_start_level'*
 'loaded_nerd_tree'	NERD_tree.txt	/*'loaded_nerd_tree'*
-<<<<<<< HEAD
 'syntastic_<filetype>_<checker>_<option>'	syntastic.txt	/*'syntastic_<filetype>_<checker>_<option>'*
 'syntastic_<filetype>_<checker>_exe'	syntastic.txt	/*'syntastic_<filetype>_<checker>_exe'*
 'syntastic_<filetype>_<checker>_exec'	syntastic.txt	/*'syntastic_<filetype>_<checker>_exec'*
@@ -122,8 +115,6 @@
 'syntastic_style_error_symbol'	syntastic.txt	/*'syntastic_style_error_symbol'*
 'syntastic_style_warning_symbol'	syntastic.txt	/*'syntastic_style_warning_symbol'*
 'syntastic_warning_symbol'	syntastic.txt	/*'syntastic_warning_symbol'*
-=======
->>>>>>> new-master
 (go-alternate-edit)	vim-go.txt	/*(go-alternate-edit)*
 (go-alternate-split)	vim-go.txt	/*(go-alternate-split)*
 (go-alternate-vertical)	vim-go.txt	/*(go-alternate-vertical)*
@@ -164,13 +155,9 @@
 (go-test-compile)	vim-go.txt	/*(go-test-compile)*
 (go-test-func)	vim-go.txt	/*(go-test-func)*
 (go-vet)	vim-go.txt	/*(go-vet)*
-<<<<<<< HEAD
 /syntastic/	syntastic.txt	/*\/syntastic\/*
 :AsmFmt	vim-go.txt	/*:AsmFmt*
 :Errors	syntastic.txt	/*:Errors*
-=======
-:AsmFmt	vim-go.txt	/*:AsmFmt*
->>>>>>> new-master
 :GoAlternate	vim-go.txt	/*:GoAlternate*
 :GoBuild	vim-go.txt	/*:GoBuild*
 :GoCallees	vim-go.txt	/*:GoCallees*
@@ -216,6 +203,8 @@
 :GoTestFunc	vim-go.txt	/*:GoTestFunc*
 :GoUpdateBinaries	vim-go.txt	/*:GoUpdateBinaries*
 :GoVet	vim-go.txt	/*:GoVet*
+:HeaderDecrease	vim-markdown.txt	/*:HeaderDecrease*
+:HeaderIncrease	vim-markdown.txt	/*:HeaderIncrease*
 :IndentGuidesDisable	indent_guides.txt	/*:IndentGuidesDisable*
 :IndentGuidesEnable	indent_guides.txt	/*:IndentGuidesEnable*
 :IndentGuidesToggle	indent_guides.txt	/*:IndentGuidesToggle*
@@ -260,6 +249,11 @@
 :NeoSnippetEdit	neosnippet.txt	/*:NeoSnippetEdit*
 :NeoSnippetMakeCache	neosnippet.txt	/*:NeoSnippetMakeCache*
 :NeoSnippetSource	neosnippet.txt	/*:NeoSnippetSource*
+:OpenBrowser	openbrowser.txt	/*:OpenBrowser*
+:OpenBrowserSearch	openbrowser.txt	/*:OpenBrowserSearch*
+:OpenBrowserSmartSearch	openbrowser.txt	/*:OpenBrowserSmartSearch*
+:PrevimOpen	previm.txt	/*:PrevimOpen*
+:SetexToAtx	vim-markdown.txt	/*:SetexToAtx*
 :SyntasticCheck	syntastic.txt	/*:SyntasticCheck*
 :SyntasticInfo	syntastic.txt	/*:SyntasticInfo*
 :SyntasticReset	syntastic.txt	/*:SyntasticReset*
@@ -271,6 +265,11 @@
 :TCommentInline	tcomment.txt	/*:TCommentInline*
 :TCommentMaybeInline	tcomment.txt	/*:TCommentMaybeInline*
 :TCommentRight	tcomment.txt	/*:TCommentRight*
+:TableFormat	vim-markdown.txt	/*:TableFormat*
+:Toc	vim-markdown.txt	/*:Toc*
+:Toch	vim-markdown.txt	/*:Toch*
+:Toct	vim-markdown.txt	/*:Toct*
+:Tocv	vim-markdown.txt	/*:Tocv*
 :Unite	unite.txt	/*:Unite*
 :UniteBookmarkAdd	unite.txt	/*:UniteBookmarkAdd*
 :UniteClose	unite.txt	/*:UniteClose*
@@ -299,6 +298,9 @@
 <Plug>(neosnippet_expand_or_jump)	neosnippet.txt	/*<Plug>(neosnippet_expand_or_jump)*
 <Plug>(neosnippet_jump)	neosnippet.txt	/*<Plug>(neosnippet_jump)*
 <Plug>(neosnippet_jump_or_expand)	neosnippet.txt	/*<Plug>(neosnippet_jump_or_expand)*
+<Plug>(openbrowser-open)	openbrowser.txt	/*<Plug>(openbrowser-open)*
+<Plug>(openbrowser-search)	openbrowser.txt	/*<Plug>(openbrowser-search)*
+<Plug>(openbrowser-smart-search)	openbrowser.txt	/*<Plug>(openbrowser-smart-search)*
 <Plug>(unite_all_exit)	unite.txt	/*<Plug>(unite_all_exit)*
 <Plug>(unite_append_end)	unite.txt	/*<Plug>(unite_append_end)*
 <Plug>(unite_append_enter)	unite.txt	/*<Plug>(unite_append_enter)*
@@ -452,12 +454,11 @@ NERDTreeOptions	NERD_tree.txt	/*NERDTreeOptions*
 NERDTreePathListenerAPI	NERD_tree.txt	/*NERDTreePathListenerAPI*
 NERDTreeRender()	NERD_tree.txt	/*NERDTreeRender()*
 NERD_tree.txt	NERD_tree.txt	/*NERD_tree.txt*
+OpenBrowser()	openbrowser.txt	/*OpenBrowser()*
+OpenBrowserSearch()	openbrowser.txt	/*OpenBrowserSearch()*
 b:neosnippet_disable_snippet_triggers	neosnippet.txt	/*b:neosnippet_disable_snippet_triggers*
 b:tcomment_def_{NAME}	tcomment.txt	/*b:tcomment_def_{NAME}*
-<<<<<<< HEAD
 filter-overrides	syntastic.txt	/*filter-overrides*
-=======
->>>>>>> new-master
 g:go_alternate_mode	vim-go.txt	/*g:go_alternate_mode*
 g:go_gorename_prefill	vim-go.txt	/*g:go_gorename_prefill*
 g:go_term_enabled	vim-go.txt	/*g:go_term_enabled*
@@ -502,6 +503,26 @@ g:neosnippet#enable_snipmate_compatibility	neosnippet.txt	/*g:neosnippet#enable_
 g:neosnippet#expand_word_boundary	neosnippet.txt	/*g:neosnippet#expand_word_boundary*
 g:neosnippet#scope_aliases	neosnippet.txt	/*g:neosnippet#scope_aliases*
 g:neosnippet#snippets_directory	neosnippet.txt	/*g:neosnippet#snippets_directory*
+g:openbrowser_browser_commands	openbrowser.txt	/*g:openbrowser_browser_commands*
+g:openbrowser_default_search	openbrowser.txt	/*g:openbrowser_default_search*
+g:openbrowser_fix_hosts	openbrowser.txt	/*g:openbrowser_fix_hosts*
+g:openbrowser_fix_paths	openbrowser.txt	/*g:openbrowser_fix_paths*
+g:openbrowser_fix_schemes	openbrowser.txt	/*g:openbrowser_fix_schemes*
+g:openbrowser_force_foreground_after_open	openbrowser.txt	/*g:openbrowser_force_foreground_after_open*
+g:openbrowser_format_message	openbrowser.txt	/*g:openbrowser_format_message*
+g:openbrowser_menu_lang	openbrowser.txt	/*g:openbrowser_menu_lang*
+g:openbrowser_no_default_menus	openbrowser.txt	/*g:openbrowser_no_default_menus*
+g:openbrowser_open_commands	openbrowser.txt	/*g:openbrowser_open_commands*
+g:openbrowser_open_filepath_in_vim	openbrowser.txt	/*g:openbrowser_open_filepath_in_vim*
+g:openbrowser_open_rules	openbrowser.txt	/*g:openbrowser_open_rules*
+g:openbrowser_open_vim_command	openbrowser.txt	/*g:openbrowser_open_vim_command*
+g:openbrowser_search_engines	openbrowser.txt	/*g:openbrowser_search_engines*
+g:openbrowser_use_vimproc	openbrowser.txt	/*g:openbrowser_use_vimproc*
+g:previm_custom_css_path	previm.txt	/*g:previm_custom_css_path*
+g:previm_disable_default_css	previm.txt	/*g:previm_disable_default_css*
+g:previm_enable_realtime	previm.txt	/*g:previm_enable_realtime*
+g:previm_open_cmd	previm.txt	/*g:previm_open_cmd*
+g:previm_show_header	previm.txt	/*g:previm_show_header*
 g:tcomment#blank_lines	tcomment.txt	/*g:tcomment#blank_lines*
 g:tcomment#ignore_char_type	tcomment.txt	/*g:tcomment#ignore_char_type*
 g:tcomment#ignore_comment_def	tcomment.txt	/*g:tcomment#ignore_comment_def*
@@ -857,6 +878,42 @@ neosnippet-unite-source-neosnippet/user	neosnippet.txt	/*neosnippet-unite-source
 neosnippet-unite-sources	neosnippet.txt	/*neosnippet-unite-sources*
 neosnippet-variables	neosnippet.txt	/*neosnippet-variables*
 neosnippet.txt	neosnippet.txt	/*neosnippet.txt*
+open-browser	openbrowser.txt	/*open-browser*
+openbrowser	openbrowser.txt	/*openbrowser*
+openbrowser#load()	openbrowser.txt	/*openbrowser#load()*
+openbrowser#open()	openbrowser.txt	/*openbrowser#open()*
+openbrowser#search()	openbrowser.txt	/*openbrowser#search()*
+openbrowser#smart_search()	openbrowser.txt	/*openbrowser#smart_search()*
+openbrowser-changelog	openbrowser.txt	/*openbrowser-changelog*
+openbrowser-commands	openbrowser.txt	/*openbrowser-commands*
+openbrowser-contents	openbrowser.txt	/*openbrowser-contents*
+openbrowser-faq	openbrowser.txt	/*openbrowser-faq*
+openbrowser-filepath-detection	openbrowser.txt	/*openbrowser-filepath-detection*
+openbrowser-functions	openbrowser.txt	/*openbrowser-functions*
+openbrowser-interface	openbrowser.txt	/*openbrowser-interface*
+openbrowser-introduction	openbrowser.txt	/*openbrowser-introduction*
+openbrowser-keymappings	openbrowser.txt	/*openbrowser-keymappings*
+openbrowser-menu-open	openbrowser.txt	/*openbrowser-menu-open*
+openbrowser-menu-search	openbrowser.txt	/*openbrowser-menu-search*
+openbrowser-menu-smart-search	openbrowser.txt	/*openbrowser-menu-smart-search*
+openbrowser-menus	openbrowser.txt	/*openbrowser-menus*
+openbrowser-option-syntax	openbrowser.txt	/*openbrowser-option-syntax*
+openbrowser-thanks	openbrowser.txt	/*openbrowser-thanks*
+openbrowser-url-detection	openbrowser.txt	/*openbrowser-url-detection*
+openbrowser-variables	openbrowser.txt	/*openbrowser-variables*
+openbrowser.txt	openbrowser.txt	/*openbrowser.txt*
+previm#open()	previm.txt	/*previm#open()*
+previm#refresh()	previm.txt	/*previm#refresh()*
+previm-changelog	previm.txt	/*previm-changelog*
+previm-command	previm.txt	/*previm-command*
+previm-contents	previm.txt	/*previm-contents*
+previm-depends	previm.txt	/*previm-depends*
+previm-functions	previm.txt	/*previm-functions*
+previm-introduction	previm.txt	/*previm-introduction*
+previm-openbrowser	previm.txt	/*previm-openbrowser*
+previm-settings	previm.txt	/*previm-settings*
+previm-usage	previm.txt	/*previm-usage*
+previm.txt	previm.txt	/*previm.txt*
 s_<Plug>(neosnippet_expand)	neosnippet.txt	/*s_<Plug>(neosnippet_expand)*
 s_<Plug>(neosnippet_expand_or_jump)	neosnippet.txt	/*s_<Plug>(neosnippet_expand_or_jump)*
 s_<Plug>(neosnippet_jump)	neosnippet.txt	/*s_<Plug>(neosnippet_jump)*
@@ -1232,6 +1289,36 @@ v_<Plug>TComment_<c-_>i	tcomment.txt	/*v_<Plug>TComment_<c-_>i*
 v_<Plug>TComment_ic	tcomment.txt	/*v_<Plug>TComment_ic*
 vim-go	vim-go.txt	/*vim-go*
 vim-go.txt	vim-go.txt	/*vim-go.txt*
+vim-markdown	vim-markdown.txt	/*vim-markdown*
+vim-markdown-[[	vim-markdown.txt	/*vim-markdown-[[*
+vim-markdown-[]	vim-markdown.txt	/*vim-markdown-[]*
+vim-markdown-][	vim-markdown.txt	/*vim-markdown-][*
+vim-markdown-]]	vim-markdown.txt	/*vim-markdown-]]*
+vim-markdown-]c	vim-markdown.txt	/*vim-markdown-]c*
+vim-markdown-]u	vim-markdown.txt	/*vim-markdown-]u*
+vim-markdown-adjust-new-list-item-indent	vim-markdown.txt	/*vim-markdown-adjust-new-list-item-indent*
+vim-markdown-change-fold-style	vim-markdown.txt	/*vim-markdown-change-fold-style*
+vim-markdown-commands	vim-markdown.txt	/*vim-markdown-commands*
+vim-markdown-credits	vim-markdown.txt	/*vim-markdown-credits*
+vim-markdown-disable-default-key-mappings	vim-markdown.txt	/*vim-markdown-disable-default-key-mappings*
+vim-markdown-disable-folding	vim-markdown.txt	/*vim-markdown-disable-folding*
+vim-markdown-enable-toc-window-auto-fit	vim-markdown.txt	/*vim-markdown-enable-toc-window-auto-fit*
+vim-markdown-fenced-code-block-languages	vim-markdown.txt	/*vim-markdown-fenced-code-block-languages*
+vim-markdown-gx	vim-markdown.txt	/*vim-markdown-gx*
+vim-markdown-installation	vim-markdown.txt	/*vim-markdown-installation*
+vim-markdown-introduction	vim-markdown.txt	/*vim-markdown-introduction*
+vim-markdown-json-front-matter	vim-markdown.txt	/*vim-markdown-json-front-matter*
+vim-markdown-latex-math	vim-markdown.txt	/*vim-markdown-latex-math*
+vim-markdown-license	vim-markdown.txt	/*vim-markdown-license*
+vim-markdown-mappings	vim-markdown.txt	/*vim-markdown-mappings*
+vim-markdown-options	vim-markdown.txt	/*vim-markdown-options*
+vim-markdown-references	vim-markdown.txt	/*vim-markdown-references*
+vim-markdown-set-header-folding-level	vim-markdown.txt	/*vim-markdown-set-header-folding-level*
+vim-markdown-syntax-concealing	vim-markdown.txt	/*vim-markdown-syntax-concealing*
+vim-markdown-syntax-extensions	vim-markdown.txt	/*vim-markdown-syntax-extensions*
+vim-markdown-text-emphasis-restriction-to-single-lines	vim-markdown.txt	/*vim-markdown-text-emphasis-restriction-to-single-lines*
+vim-markdown-toml-front-matter	vim-markdown.txt	/*vim-markdown-toml-front-matter*
+vim-markdown-yaml-front-matter	vim-markdown.txt	/*vim-markdown-yaml-front-matter*
 vimshell#hook#add()	vimshell.txt	/*vimshell#hook#add()*
 vimshell#hook#get()	vimshell.txt	/*vimshell#hook#get()*
 vimshell#hook#remove()	vimshell.txt	/*vimshell#hook#remove()*

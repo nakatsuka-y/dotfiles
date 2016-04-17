@@ -1,4 +1,5 @@
 !_TAG_FILE_ENCODING	utf-8	//
+:PrevimOpen	previm.jax	/*:PrevimOpen*
 :VimShell	vimshell.jax	/*:VimShell*
 :VimShellCreate	vimshell.jax	/*:VimShellCreate*
 :VimShellExecute	vimshell.jax	/*:VimShellExecute*
@@ -44,6 +45,11 @@
 <Plug>(vimshell_split_create)	vimshell.jax	/*<Plug>(vimshell_split_create)*
 <Plug>(vimshell_split_switch)	vimshell.jax	/*<Plug>(vimshell_split_switch)*
 <Plug>(vimshell_switch)	vimshell.jax	/*<Plug>(vimshell_switch)*
+g:previm_custom_css_path	previm.jax	/*g:previm_custom_css_path*
+g:previm_disable_default_css	previm.jax	/*g:previm_disable_default_css*
+g:previm_enable_realtime	previm.jax	/*g:previm_enable_realtime*
+g:previm_open_cmd	previm.jax	/*g:previm_open_cmd*
+g:previm_show_header	previm.jax	/*g:previm_show_header*
 g:vimshell_cat_command	vimshell.jax	/*g:vimshell_cat_command*
 g:vimshell_cd_command	vimshell.jax	/*g:vimshell_cd_command*
 g:vimshell_disable_escape_highlight	vimshell.jax	/*g:vimshell_disable_escape_highlight*
@@ -101,6 +107,18 @@ i_<Plug>(vimshell_move_head)	vimshell.jax	/*i_<Plug>(vimshell_move_head)*
 i_<Plug>(vimshell_move_previous_window)	vimshell.jax	/*i_<Plug>(vimshell_move_previous_window)*
 i_<Plug>(vimshell_push_current_line)	vimshell.jax	/*i_<Plug>(vimshell_push_current_line)*
 i_<Plug>(vimshell_run_help)	vimshell.jax	/*i_<Plug>(vimshell_run_help)*
+previm#open()	previm.jax	/*previm#open()*
+previm#refresh()	previm.jax	/*previm#refresh()*
+previm-changelog	previm.jax	/*previm-changelog*
+previm-command	previm.jax	/*previm-command*
+previm-contents	previm.jax	/*previm-contents*
+previm-depends	previm.jax	/*previm-depends*
+previm-functions	previm.jax	/*previm-functions*
+previm-introduction	previm.jax	/*previm-introduction*
+previm-openbrowser	previm.jax	/*previm-openbrowser*
+previm-settings	previm.jax	/*previm-settings*
+previm-usage	previm.jax	/*previm-usage*
+previm.txt	previm.jax	/*previm.txt*
 v_<Plug>(vimshell_select_next_prompt)	vimshell.jax	/*v_<Plug>(vimshell_select_next_prompt)*
 v_<Plug>(vimshell_select_previous_prompt)	vimshell.jax	/*v_<Plug>(vimshell_select_previous_prompt)*
 vimshell#hook#add()	vimshell.jax	/*vimshell#hook#add()*

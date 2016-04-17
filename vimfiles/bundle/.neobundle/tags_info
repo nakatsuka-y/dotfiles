@@ -3,11 +3,14 @@ neomru.vim
 neosnippet-snippets
 neosnippet.vim
 nerdtree
+open-browser.vim
 powerline
+previm
 syntastic
 tcomment_vim
 unite.vim
 vim-go
 vim-indent-guides
+vim-markdown
 vim-trailing-whitespace
 vimshell

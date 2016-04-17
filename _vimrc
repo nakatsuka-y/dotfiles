@@ -67,6 +67,9 @@ NeoBundle 'bronson/vim-trailing-whitespace' "use ':FixWhitespace' to automatical
 NeoBundle 'powerline/powerline',{'rtp': 'powerline/bindings/vim/'}
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'fatih/vim-go.git' "Go development plugin
+NeoBundle 'plasticboy/vim-markdown' "plugin for writing markdown
+NeoBundle 'kannokanno/previm' "markdown preview plugin
+NeoBundle 'tyru/open-browser.vim' "open preview in browser
 
 " You can specify revision/branch/tag.
 NeoBundle 'Shougo/vimshell', { 'rev' : '3787e5' }
@@ -138,6 +141,9 @@ imap <C-h> <Left>
 imap <C-j> <Down>
 imap <C-k> <Up>
 imap <C-l> <Right>
+
+"Set filetype .md and .mkd as markdown file
+au BufRead,BufNewFile *.md set filetype=markdown
 
 " Source a global configuration file if available
 if filereadable("/etc/vim/vimrc.local")
