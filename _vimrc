@@ -128,6 +128,7 @@ set title               " Show file name in title
 set wildmenu            " Do file name completion in command mode
 set hlsearch            " Highlight search result
 set whichwrap=b,s,h,l,<,>,[,] " Stop cursor from stopping at line beginnings and endings
+set background=dark
 
 "hightlight LineNr ctermfg=darkyellow " Set line number color
 
@@ -151,7 +152,6 @@ if filereadable("/etc/vim/vimrc.local")
 endif
 
 " Set colorscheme
-"colorscheme solarized
 colorscheme desert
 """"""""""""""""""""""""""""""
 
