@@ -6,6 +6,7 @@
 'NERDTreeCascadeOpenSingleChildDir'	NERD_tree.txt	/*'NERDTreeCascadeOpenSingleChildDir'*
 'NERDTreeCaseSensitiveSort'	NERD_tree.txt	/*'NERDTreeCaseSensitiveSort'*
 'NERDTreeChDirMode'	NERD_tree.txt	/*'NERDTreeChDirMode'*
+'NERDTreeCreatePrefix'	NERD_tree.txt	/*'NERDTreeCreatePrefix'*
 'NERDTreeHighlightCursorline'	NERD_tree.txt	/*'NERDTreeHighlightCursorline'*
 'NERDTreeHijackNetrw'	NERD_tree.txt	/*'NERDTreeHijackNetrw'*
 'NERDTreeIgnore'	NERD_tree.txt	/*'NERDTreeIgnore'*
@@ -30,7 +31,7 @@
 'g:go_autodetect_gopath'	vim-go.txt	/*'g:go_autodetect_gopath'*
 'g:go_bin_path'	vim-go.txt	/*'g:go_bin_path'*
 'g:go_def_mapping_enabled'	vim-go.txt	/*'g:go_def_mapping_enabled'*
-'g:go_def_use_buffer'	vim-go.txt	/*'g:go_def_use_buffer'*
+'g:go_def_reuse_buffer'	vim-go.txt	/*'g:go_def_reuse_buffer'*
 'g:go_dispatch_enabled'	vim-go.txt	/*'g:go_dispatch_enabled'*
 'g:go_doc_command'	vim-go.txt	/*'g:go_doc_command'*
 'g:go_doc_keywordprg_enabled'	vim-go.txt	/*'g:go_doc_keywordprg_enabled'*
@@ -78,6 +79,7 @@
 'indent_guides_soft_pattern'	indent_guides.txt	/*'indent_guides_soft_pattern'*
 'indent_guides_space_guides'	indent_guides.txt	/*'indent_guides_space_guides'*
 'indent_guides_start_level'	indent_guides.txt	/*'indent_guides_start_level'*
+'indent_guides_tab_guides'	indent_guides.txt	/*'indent_guides_tab_guides'*
 'loaded_nerd_tree'	NERD_tree.txt	/*'loaded_nerd_tree'*
 'syntastic_<filetype>_<checker>_<option>'	syntastic.txt	/*'syntastic_<filetype>_<checker>_<option>'*
 'syntastic_<filetype>_<checker>_exe'	syntastic.txt	/*'syntastic_<filetype>_<checker>_exe'*
@@ -124,6 +126,8 @@
 (go-callstack)	vim-go.txt	/*(go-callstack)*
 (go-channelpeers)	vim-go.txt	/*(go-channelpeers)*
 (go-coverage)	vim-go.txt	/*(go-coverage)*
+(go-coverage-clear)	vim-go.txt	/*(go-coverage-clear)*
+(go-coverage-toggle)	vim-go.txt	/*(go-coverage-toggle)*
 (go-def)	vim-go.txt	/*(go-def)*
 (go-def-pop)	vim-go.txt	/*(go-def-pop)*
 (go-def-split)	vim-go.txt	/*(go-def-split)*
@@ -166,6 +170,8 @@
 :GoChannelPeers	vim-go.txt	/*:GoChannelPeers*
 :GoCoverage	vim-go.txt	/*:GoCoverage*
 :GoCoverageBrowser	vim-go.txt	/*:GoCoverageBrowser*
+:GoCoverageClear	vim-go.txt	/*:GoCoverageClear*
+:GoCoverageToggle	vim-go.txt	/*:GoCoverageToggle*
 :GoDecls	vim-go.txt	/*:GoDecls*
 :GoDeclsDir	vim-go.txt	/*:GoDeclsDir*
 :GoDef	vim-go.txt	/*:GoDef*
