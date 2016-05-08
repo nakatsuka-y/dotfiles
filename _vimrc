@@ -70,6 +70,8 @@ NeoBundle 'fatih/vim-go.git' "Go development plugin
 NeoBundle 'plasticboy/vim-markdown' "plugin for writing markdown
 NeoBundle 'kannokanno/previm' "markdown preview plugin
 NeoBundle 'tyru/open-browser.vim' "open preview in browser
+NeoBundle 'Shougo/vimshell.vim' "shell for vim (type `:VimShell` to open shell)
+NeoBundle 'Shougo/vimproc' "dependency for vim shell (cd into ~/dotfiles/vimfiles/bundle/vimproc and then type `make -f make_unix.mak`)
 
 " You can specify revision/branch/tag.
 NeoBundle 'Shougo/vimshell', { 'rev' : '3787e5' }

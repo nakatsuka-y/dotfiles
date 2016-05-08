@@ -13,4 +13,6 @@ vim-go
 vim-indent-guides
 vim-markdown
 vim-trailing-whitespace
+vimproc
 vimshell
+vimshell.vim
