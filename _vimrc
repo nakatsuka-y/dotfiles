@@ -37,54 +37,50 @@ if has("autocmd")
 endif
 
 """"""""""""""""""""""""""""""
-" NeoBundle Scripts
+" Dein Scripts
 """"""""""""""""""""""""""""""
 " If you cloned vimfile from Github to another machine, be sure to remove all
-" the contents of the bundle file and clone NeoBundle from NeoBundle site.
+" the contents of the bundle file and clone dein#add from dein#add site.
 if &compatible
   set nocompatible               " Be iMproved
 endif
 
 " Required:
-set runtimepath+=~/dotfiles/vimfiles/bundle/neobundle.vim/
+set runtimepath+=~/dotfiles/vimfiles/dein/repos/github.com/Shougo/dein.vim
 
 " Required:
-call neobundle#begin(expand('~/dotfiles/vimfiles/bundle'))
+call dein#begin(expand('~/dotfiles/vimfiles/dein'))
 
-" Let NeoBundle manage NeoBundle
-" Required:
-NeoBundleFetch 'Shougo/neobundle.vim'
+call dein#add('Shougo/dein.vim')
 
 " Add or remove your Bundles here:
-NeoBundle 'Shougo/neosnippet.vim'
-NeoBundle 'Shougo/neosnippet-snippets'
-NeoBundle 'Shougo/unite.vim'
-NeoBundle 'Shougo/neomru.vim'
-NeoBundle 'scrooloose/nerdtree'
-NeoBundle 'tomtom/tcomment_vim' "select using SHIFT+V and comment out with Ctrl+-
-NeoBundle 'nathanaelkane/vim-indent-guides'
-NeoBundle 'bronson/vim-trailing-whitespace' "use ':FixWhitespace' to automatically delete unwanted spaces
-NeoBundle 'powerline/powerline',{'rtp': 'powerline/bindings/vim/'}
-NeoBundle 'scrooloose/syntastic'
-NeoBundle 'fatih/vim-go.git' "Go development plugin
-NeoBundle 'plasticboy/vim-markdown' "plugin for writing markdown
-NeoBundle 'kannokanno/previm' "markdown preview plugin
-NeoBundle 'tyru/open-browser.vim' "open preview in browser
-NeoBundle 'Shougo/vimshell.vim' "shell for vim (type `:VimShell` to open shell)
-NeoBundle 'Shougo/vimproc' "dependency for vim shell (cd into ~/dotfiles/vimfiles/bundle/vimproc and then type `make -f make_unix.mak`)
+call dein#add('Shougo/neosnippet.vim')
+call dein#add('Shougo/neosnippet-snippets')
+call dein#add('Shougo/unite.vim')
+call dein#add('Shougo/neomru.vim')
+call dein#add('scrooloose/nerdtree')
+call dein#add('tomtom/tcomment_vim') "select using SHIFT+V and comment out with Ctrl+-
+call dein#add('nathanaelkane/vim-indent-guides')
+call dein#add('bronson/vim-trailing-whitespace') "use ':FixWhitespace' to automatically delete unwanted spaces
+call dein#add('powerline/powerline',{'rtp' : 'powerline/bindings/vim/'})
+"call dein#add('powerline/powerline')
+call dein#add('scrooloose/syntastic')
+call dein#add('fatih/vim-go.git') "Go development plugin
+call dein#add('plasticboy/vim-markdown') "plugin for writing markdown
+call dein#add('kannokanno/previm') "markdown preview plugin
+call dein#add('tyru/open-browser.vim') "open preview in browser
+call dein#add('Shougo/vimshell.vim') "shell for vim (type `:VimShell` to open shell)
+call dein#add('Shougo/vimproc.vim',{'build' : 'make'}) "dependency for vim shell (cd into ~/dotfiles/vimfiles/bundle/vimproc and then type `make -f make_unix.mak`)
 
 " You can specify revision/branch/tag.
-NeoBundle 'Shougo/vimshell', { 'rev' : '3787e5' }
+"call dein#add('Shougo/vimshell'), { 'rev' : '3787e5' }
 
 " Required:
-call neobundle#end()
+call dein#end()
 
 " Required:
 filetype plugin indent on
 
-" If there are uninstalled bundles found on startup,
-" this will conveniently prompt you to install them.
-NeoBundleCheck
 """"""""""""""""""""""""""""""
 
 """"""""""""""""""""""""""""""
